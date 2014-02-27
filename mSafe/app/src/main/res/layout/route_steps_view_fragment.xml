@@ -1,0 +1,36 @@
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#214f80">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:indeterminate="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_indicator"/>
+
+    <melb.mSafe.views.HeightWrappingViewPager
+        android:id="@+id/pager"
+        android:layout_below="@id/progress_indicator"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/left_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" android:src="@drawable/arrow_left_drawable"
+        android:layout_alignParentLeft="true"
+        />
+    <ImageView
+        android:id="@+id/right_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" android:src="@drawable/arrow_right_drawable"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Msafe_blue" parent="@style/_Msafe_blue"/>
+
+  <style name="_Msafe_blue" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:buttonStyle">@style/ButtonMsafe_blue</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonMsafe_blue</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerMsafe_blue</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMsafe_blue</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarMsafe_blue</item>
+
+  </style>
+
+</resources>

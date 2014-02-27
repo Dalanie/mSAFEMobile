@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/delimitter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:stackFromBottom="false"
+        android:transcriptMode="alwaysScroll" >
+    </ListView>
+
+    <View
+        android:id="@+id/delimitter"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/sendingMessageLayout"
+        android:layout_height="1dp"
+        android:background="@color/actionbar_holo_light_background" />
+
+    <LinearLayout
+        android:id="@+id/sendingMessageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:background="@color/actionbar_holo_light_background" />
+
+        <EditText
+            android:id="@+id/messageText"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:hint="@string/insert_message_hint" >
+
+            <requestFocus />
+        </EditText>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:background="@color/actionbar_holo_light_background" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send" />
+    </LinearLayout>
+
+</RelativeLayout>

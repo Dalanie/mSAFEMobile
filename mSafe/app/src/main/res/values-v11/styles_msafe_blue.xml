@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="ButtonMsafe_blue" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/msafe_blue_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonMsafe_blue" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/msafe_blue_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerMsafe_blue" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/msafe_blue_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/msafe_blue_list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarMsafe_blue" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/msafe_blue_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/msafe_blue_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarMsafe_blue" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/msafe_blue_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/msafe_blue_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/msafe_blue_scrubber_control_selector_holo_light</item>
+  </style>
+
+</resources>

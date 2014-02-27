@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- When selected, use white -->
+        <item android:drawable= "@color/layer_selected"
+            android:state_checked="true" />
+        <!-- When not selected, use gray-->
+        <item android:drawable="@color/layer_not_selected"
+            android:state_checked="false"/>
+
+    </selector>

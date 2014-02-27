@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mSafe="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/qr"
+        android:icon="@drawable/qr_code_menu"
+        android:orderInCategory="1"
+        mSafe:showAsAction="ifRoom"
+        android:title="@string/qr"/>
+    <item
+        android:title="Accessibility"
+        android:id="@+id/accessible_spinner"
+        mSafe:actionViewClass="android.widget.Spinner"
+        android:orderInCategory="1"
+        mSafe:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/map"
+        mSafe:showAsAction="ifRoom"
+        android:orderInCategory="999"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/elevator"
+        android:icon="@drawable/elevator_menu"
+        mSafe:showAsAction="ifRoom"
+        android:orderInCategory="3"
+        android:title="Elevator"/>
+    <item
+        android:id="@+id/stairs"
+        android:icon="@drawable/stairs_menu"
+        mSafe:showAsAction="never"
+        android:title="Stairs"/>
+    <item
+        android:id="@+id/chat"
+        android:orderInCategory="999"
+        mSafe:showAsAction="never"
+        android:title="Chat"/>
+    <item
+        android:id="@+id/relog"
+        android:orderInCategory="999"
+        mSafe:showAsAction="never"
+        android:title="Relog"
+        />
+
+</menu>
